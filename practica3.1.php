@@ -35,8 +35,16 @@
 
                     }
                 ?>
-                <input type="submit" value="Select Country">
             </select>
+            <br/>
+            <br/>
+            <label for="ciudad">Nombre de la ciudad: </label>
+            <input type="text" name="ciudad" id="ciudad">
+            <label for="poblacion">Número de habitantes: </label>
+            <input type="number" name="poblacion" id="poblacion">
+            <label for="district">Nombre del distrito: </label>
+            <input type="text" name="district" id="district">
+            <input type="submit" value="Select Country">
         </form>	
     </body>
 </html>
